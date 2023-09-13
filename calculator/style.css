@@ -14,7 +14,7 @@ html {
 body {
     display: flex;
     align-items: center;
-    background: linear-gradient(320deg, #eb92be, #ffef78);
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
     font-family: 'Dosis', sans-serif;
     font-display: swap;
     height: inherit;
@@ -85,4 +85,16 @@ body {
 .calc-button:last-child:hover {
     background-color: inherit;
     color: inherit;
+}
+
+.calc-button:active {
+    background-color: #ffef78;
+}
+
+.double {
+    flex-basis: 47%;
+}
+
+.triple {
+    flex-basis: 73%;
 }
